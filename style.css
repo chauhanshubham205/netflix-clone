@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/970e664f-2df4-47ce-b4fa-446082f5abc1/ccc3a1f7-2180-4f51-aa75-f9e9196c478b/IN-en-20220523-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    width: 98.792vw;
+    height: 800px;
+    background-size: 100vw 1000px;
+    background-repeat: no-repeat;
+  box-shadow: 0 0 565px 186px inset rgb(0 0 0 / 80%); 
+  /* display: flex; */
+  font-family: 'Lato', sans-serif;
+  background-position: center;
+}
+.container img{
+    width: 12vw;
+    height: 7vw;
+    margin-left: 7vh;
+
+}
+#lang{
+    width: 90px;
+    height: 37px;
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-right: 2vw;
+    border: 1px solid white;
+}
+option{color: black;}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+button{
+    width: 90px;
+    height: 37px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font: 20px solid;
+    margin-right: 5vw;
+}
+
+.centerContainer{
+    width: 98vw;
+    height: 86vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.h1{
+    /* width: 35vw; */
+    /* height: 20vh; */
+    color: white;
+    font-size: 3.125rem;
+    font-weight: bolder;
+    text-align: center;
+    line-height:7vh;
+}
+.centerContainer h2{
+    margin-top: 2vh;
+    color: white;
+    font-size: 1.625rem;
+}
+.centerContainer h3{
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 4vh;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+}
+.searchBar input {
+    width: 450px;
+    height: 60px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+.searchBar button{
+    width: 214px;
+    height: 60px;
+    border: none;
+    border-radius: 0px 5px 5px 0 ;
+}
+.container2{
+    width: 98.792vw;
+    height: 500px;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    flex-direction: row;
+}
+.para{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    /* position: ; */
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+    justify-content: center;
+    background-color: black;
+}
+.paracont{
+    width: 35vw;
+    height: 380px;
+    color: white;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+}
+.paracont p2{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.paracont p1{
+    display: block;
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+.animation{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    display: inline-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.animation img{
+    width: 450px;
+    position: absolute;
+    /* left: 550px; */
+    /* right: 17.5vw; */
+    /* height: 60vh; */
+}
+.animation video{ 
+    width: 350px;
+    /* height: 60vh; */
+    position: absolute;
+    /* top: -1vh; */
+    /* left: 14vw;  */
+}
+.container3{
+    width: 98.792vw;
+    height: 70vh;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    font-family: 'Lato', sans-serif;
+
+}
+.imgGif{
+    width: 50%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+    font-size: large;
+}
+.imgGif img{
+    width: 30vw;;
+}
+.download{
+    position: relative;
+    width: 25vw;
+    bottom: 80px;
+    height: 8vw;
+    border: 2px solid gray;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.download img{
+    width: 4vw;
+    margin: 1vw;
+}
+#video2{
+    width: 290px;
+    /* height: 60vh; */
+    position: relative;
+    top: -59px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    /* height: 2000px;
+    width: 100%; */
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    color: white;
+}
+.info p{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.clickBtn{
+    margin: 10px;
+    width: 60vw;
+    height: 50px;
+    background-color: #303030;
+    overflow: hidden;
+    transition: height 0.5s ease-in;
+    color: white;
+    border: 2px solid rgb(61, 61, 61);
+
+}
+.question{
+    width: 60vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: larger;
+    background-image: url(https://icon-library.com/images/white-plus-icon/white-plus-icon-3.jpg);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: 770px;
+
+}
+.answer{
+    font-family: 'Lato', sans-serif;
+    padding: 10px 10px;
+    font-size: larger;
+    
+}
+.question img{
+    width: 35px;
+    padding: 0 20px;
+    height: 35px;
+    background-color: aqua;
+}
+.clickBtn:hover{
+    height: 200px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+}
+.gap{
+    width: 100%;
+    height: 150px;
+}
+.call{
+    grid-column: 1/5;
+    grid-row: 1/6;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    justify-content: space-around;
+    width: 70vw;
+    background-color: black;
+}
+.footGrid{
+    font-family: 'Lato', sans-serif;
+    color: rgb(150, 150, 150);
+    /* border: 3px solid red; */
+    /* text-align: ce   nter; */
+    
+}
+.footGrid:hover{
+    text-decoration: underline;
+    color: rgb(175, 175, 175);
+
+}
+@media (max-width:1000px ) {
+    .container{
+        width: 100%;
+        background-size: 100%;
+        height: 100%;
+    }
+    .container2{
+        width: 100%;
+    }
+    .container3{
+        width: 100%;
+    }
+}
+@media (max-width:800px ){
+    .container2{
+        width: 98.792vw;
+    height: 731px;
+    flex-direction: column-reverse;
+    }
+    .para{
+        width: 100%;
+    }
+    .paracont{
+        width: 100%;
+    }
+    .animation{
+        width: 100%;
+    }
+    .imgGif{
+        width: 100%;
+    }
+
+    .container3{
+        width: 98.792vw;
+    height: 186vh;
+    flex-direction: column;
+    }
+}
